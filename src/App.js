@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './Navbar';
+import Home from './Home';
 
+
+// functions must start with CAPITAL letters
 function App() {
+
+  const title = "welcome to my blog";
+  const likes = 50;
+  //const vrinda = {name: "vrinda", lastName: "joshi", age: 30};
   return (
+    // main app injected into html file (actually coded in JSX, translated into HTML via babel), rendered by index.js
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar/>
+      <div className="content">
+        <Home></Home>
+      </div>
     </div>
   );
 }
