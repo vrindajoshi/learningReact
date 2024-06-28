@@ -1,22 +1,22 @@
 {
-    "blogs": [
-        {
-            "title": "my first blog",
-            "body": "lorem ipsum....",
-            "author": "vrinda",
-            "id": 1
-        },
-        {
-            "title": "my second blog",
-            "body": "lorem ipsum....",
-            "author": "vrinda",
-            "id": 2
-        },
-        {
-            "title": "my third blog",
-            "body": "lorem ipsum....",
-            "author": "vrinda",
-            "id": 3
-        }
-    ]
+  "blogs": [
+    {
+        "title": "my first blog",
+        "body": "lorem ipsum....",
+        "author": "vrinda",
+        "id": "1"
+      },
+    {
+      "title": "my second blog",
+      "body": "lorem ipsum....",
+      "author": "vrinda",
+      "id": "2"
+    },
+    {
+      "title": "my third blog",
+      "body": "lorem ipsum....",
+      "author": "vrinda",
+      "id": "3"
+    }
+  ]
 }
